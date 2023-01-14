@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yhteystiedot</title>
+</head>
+<body>
+  <h2>Yhteystiedot</h2>
+  <p>Puh.0123567890</p>
+  <p>Sähköposti: oma@gmail.com</p>
+  <p>Osoite:</p>
+  <hr>
+
+  <form action="mailto:jpsuomalainen87@gmail.com" method="post" enctype="text/plain">
+    <label>Tideosto</label>
+    <input type="file" name="Tiedosto" id=""><br>
+    <label>Nimi:</label>
+    <input type="text" name="Nimesi"><br>
+    <label >Sähköposti:</label>
+    <input type="email" name="Sahkopostisi" id=""><br>
+    <label>Viesti:</label><br>
+    <textarea name="Viestisi"cols="30" rows="10"></textarea><br>
+    <label >Päivämäärä</label>
+    <input type="datetime-local" name="PV" id=""><br>
+    <label> Haluatko että otan yhteyttä?</label>
+    <input type="submit"><br>
+    <input type="reset" value="Tyhjennä">
+  </form>
+
+</body>
+</html>
